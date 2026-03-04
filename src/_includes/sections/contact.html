@@ -1,0 +1,81 @@
+<!-- ============================================ -->
+<!--                   Contact                    -->
+<!-- ============================================ -->
+
+<section id="contact-1388">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Contact Us</span>
+            <h2 class="cs-title">Start your project with a free quote</h2>
+            <p class="cs-text">
+                Ready to start your next painting project? Contact the team today for a free inspection and quote to get started.
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-76.svg" alt="phone icon" class="cs-icon" width="40" height="40" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Phone</span>
+                        <a href="tel:{{ client.phoneForTel }}
+                        " class="cs-link"> {{ client.phoneFormatted }}
+                        </a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Email</span>
+                        <a href="mailto:{{ client.email }}" class="cs-link">{{ client.email }}</a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pin-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Address</span>
+                        <a href="{{ client.address.mapLink }}" class="cs-link">Melbourne</a>
+                    </div>
+                </li>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d804827.7517451138!2d144.3937312586566!3d-38.003763057634075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad61b1b35b1e267%3A0x27eb1e9c0207bbb5!2sTomic%20Painting%20Decorating!5e0!3m2!1sen!2sau!4v1772598864228!5m2!1sen!2sau" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!--Form-->
+<form class="cs-form" id="cs-form-1388" name="Contact Form" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+             <!-- Netlify required hidden input -->
+    <input type="hidden" name="form-name" value="Contact Form">
+
+    <!-- Honeypot field -->
+    <p style="display:none;">
+        <label>Don’t fill this out if you're human:
+            <input name="bot-field">
+        </label>
+    </p>
+            <h3 class="cs-h3">Get A Quote</h3>
+            <label class="cs-label">
+                Name
+                <input class="cs-input" required type="text" id="name-1388" name="Name" placeholder="John">
+            </label>
+            <label class="cs-label cs-email">
+                Email
+                <input class="cs-input" required type="email" id="email-1388" name="Email" placeholder="john@hotmail.com">
+            </label>
+            <label class="cs-label cs-phone">
+                Phone
+                <input class="cs-input" required type="number" id="phone-1388" name="Phone" placeholder="0412 345 678">
+            </label>
+            <label class="cs-label">
+                Location
+                <input class="cs-input" required type="text" id="location-1388" name="Location" placeholder="Kew">
+            </label>
+            <label class="cs-label">
+                Message
+                <textarea class="cs-input cs-textarea" required name="Message" id="message-1388" placeholder="I need a painter to...."></textarea>
+            </label>
+            <button class="cs-button-solid cs-submit" type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+                                
