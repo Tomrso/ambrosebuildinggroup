@@ -16,9 +16,9 @@
                 </a>
             </div>
             <div class="cs-top-social">
-                <a href="{{ client.socials.facebook }}" class="cs-social-link" target="_blank">
+                {# <a href="{{ client.socials.facebook }}" class="cs-social-link" target="_blank">
                     <img class="cs-social-icon" src="/assets/images/icons/facebook.png" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
-                </a>
+                </a> #}
                 <a href="{{ client.socials.instagram }}" class="cs-social-link" target="_blank">
                     <img class="cs-social-icon" src="/assets/images/icons/instagram.png" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
                 </a>
@@ -28,7 +28,7 @@
     <div class="cs-container">
         <!--Nav Logo-->
         <a href="/" class="cs-logo" aria-label="back to home">
-            <img src="/assets/images/logo.png" alt="Tomic Painting logo" width="197" height="43" aria-hidden="true" decoding="async">
+            <img src="/assets/images/logo.png" alt="Ambrose Building Group logo" width="197" height="43" aria-hidden="true" decoding="async">
         </a>
         <!--Navigation List-->
         <nav class="cs-nav" role="navigation">
@@ -49,19 +49,19 @@
                         </a>
                     </li>
                     <li class="cs-li cs-dropdown">
-                        <div class="cs-li-link cs-dropdown-toggle {% if page.url == "/interior/" or page.url == "/exterior/" or page.url == "/renovations/"  %} cs-active {% endif %}" aria-haspopup="menu" aria-expanded="false" id="services-dropdown-toggle">
+                        <div class="cs-li-link cs-dropdown-toggle {% if page.url == "/outdoor-entertainment/" or page.url == "/pool-houses/" or page.url == "/renovations/"  %} cs-active {% endif %}" aria-haspopup="menu" aria-expanded="false" id="services-dropdown-toggle">
                             Services
                             <img class="cs-drop-icon" src="/assets/images/icons/dropdown.png" alt="" width="15" height="15" decoding="async" aria-hidden="true">
                         </div>
                         <ul class="cs-drop-ul" aria-labelledby="projects-dropdown-toggle">
                             <li class="cs-drop-li">
-                                <a href="/interior/" class="cs-li-link cs-drop-link">Interior Painting</a>
+                                <a href="/outdoor-entertainment/" class="cs-li-link cs-drop-link">Outdoor Entertainment</a>
                             </li>
                             <li class="cs-drop-li">
-                                <a href="/exterior/" class="cs-li-link cs-drop-link">Exterior Painting</a>
+                                <a href="/pool-houses/" class="cs-li-link cs-drop-link">Pool Houses</a>
                             </li>
                             <li class="cs-drop-li">
-                                <a href="/renovations/" class="cs-li-link cs-drop-link">Renovations & Repainting</a>
+                                <a href="/renovations/" class="cs-li-link cs-drop-link">Luxury Renovations</a>
                             </li>
                         </ul>
                     </li>
