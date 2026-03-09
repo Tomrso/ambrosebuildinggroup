@@ -1,6 +1,6 @@
 module.exports = {
     name: "Ambrose Building Group",
-    email: "ambrosebuildinggroup.com.au",
+    email: "ambrosebuildinggroup@gmail.com",
     phoneForTel: "0401218243",
     phoneFormatted: "0401 218 243",
     address: {
